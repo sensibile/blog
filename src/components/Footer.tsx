@@ -27,21 +27,13 @@ export function Footer() {
               Facebook
             </a>
           )}
-          {config.twitter && (
-            <a href={config.twitter} target="_blank" rel="noopener noreferrer">
-              Twitter
-            </a>
-          )}
-
           <a
-            href="https://github.com/scttcper/gatsby-casper"
+            href="https://github.com/sensibile"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Casper
+            Sensibile
           </a>
-
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>

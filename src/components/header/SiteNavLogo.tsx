@@ -13,9 +13,9 @@ export function SiteNavLogo() {
   return (
     <StaticQuery
       query={graphql`query HeadingQuery {
-  logo: file(relativePath: {eq: "img/ghost-logo.png"}) {
+  logo: file(relativePath: {eq: "img/logo.png"}) {
     childImageSharp {
-      gatsbyImageData(quality: 100, width: 500, layout: FIXED)
+      gatsbyImageData(quality: 100, width: 262, layout: FIXED)
     }
   }
 }

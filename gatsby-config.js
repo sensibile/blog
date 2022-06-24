@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Sensibile\'s blog',
+    title: 'Sensibile Dev Studio',
     description: '개발 blog with gatsby',
     siteUrl: 'https://sensibile.netlify.com', // full path to blog - no ending slash
   },
