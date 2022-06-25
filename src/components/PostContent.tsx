@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import RehypeReact from 'rehype-react';
 
 import { colors } from '../styles/colors';
+import 'katex/dist/katex.min.css'
 
 const renderAst = new RehypeReact({
   createElement: React.createElement,

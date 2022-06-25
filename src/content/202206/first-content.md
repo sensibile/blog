@@ -1,28 +1,34 @@
 ---
 layout: post
-title: Github Source
+title: 테스트
 image: ../img/callum-shaw-555357-unsplash.jpg
 author: [Sensibile]
-date: 2019-03-10T10:00:00.000Z
+date: 2022-06-25T13:42:00.000Z
+draft: false
 tags:
-  - Source
-excerpt: Where to find this project on GitHub.
+  - Algorithm
+  - Java
+excerpt: 카드 놀이를 할 때 손에 쥔 카드를 정렬하는 것과 같은 방법
 ---
 
-## __A few things you should know__
-Find the source of this blog on GitHub - [scttcper/gatsby-casper](https://github.com/scttcper/gatsby-casper)
+## 테스트
 
-### Getting Started
-Use this repo to start your own blog with the same theme.
+입력: n개 수들의 수열 <$a_1, a_2, ..., a_n$>
 
-__Clone this repo.__
-```bash
-git clone https://github.com/scttcper/gatsby-casper.git --depth=1
+출력: $a_1' \leq a_2' \leq ... \leq a_n'$ 을 만족하는 입력 수열의 순열
+
+j 번째 수를 정렬된 배열 nums[1 .. j-1]에 삽입 
+
+```java
+public static void insertionSort(int[] nums) {
+    for (int j = 1; j < nums.length; ++j) {
+        int key = nums[j];
+        int i = j -1;
+        while (i >= 0 && nums[i] > key) {
+            nums[i + 1] = nums[i];
+            --i;
+        }
+        nums[i + 1] = key;
+    }
+}
 ```
-
-__Remove .git folder and setup a new one__
-```bash
-rm -rf .git && git init
-```
-
-Now push to whatever repo you want!
