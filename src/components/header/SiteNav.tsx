@@ -99,8 +99,8 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   </Link>
                 </li> */}
                 <li role="menuitem">
-                  <Link to="/tags/algorithm/" activeClassName="nav-current">
-                    Algorithm
+                  <Link to="/tags/java/" activeClassName="nav-current">
+                    Java
                   </Link>
                 </li>
               </ul>
