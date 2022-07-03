@@ -180,4 +180,4 @@ switch (shape) {
 
 ## 출처
 
-[Oracle Java Magazine - Pattern matching updates for Java 19’s JEP 427: when and null](https://blogs.oracle.com/javamagazine/post/java-lists-view-unmodifiable-immutable)
+[Oracle Java Magazine - Pattern matching updates for Java 19’s JEP 427: when and null](https://blogs.oracle.com/javamagazine/post/java-pattern-matching-switch-when-null)
