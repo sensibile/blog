@@ -8,7 +8,7 @@ draft: false
 tags:
   - Java Magazine
   - Java
-excerpt: List가 수정 불가능할까요? 가능할까요? 리스트의 출력은 무엇일까요?
+excerpt: List가 수정 불가능할까요? 가능할까요? List의 View란 무엇일까요?
 ---
 
 다음의 코드 조각이 주어졌습니다.
